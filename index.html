@@ -13,9 +13,11 @@
   <div class="container">
     <header>
       <h1 class="heading">Guess the Number</h1>
+      <h4 class="sub-heading">Between 0 - 20</h4>
 
       <div class="heading-action">
         <button class="btn restart">restart</button>
+        <p><- to restart the game</p>
       </div>
     </header>
 
@@ -27,13 +29,24 @@
     <div class="hud">
 
       <div class="check-group">
-        <button type="submit" class="btn start">Start</button>
-        <input type="number" class="input guess-number" maxlength="2">
-        <button type="submit" class="btn check">check</button>
+        <div class="input-group">
+          <button type="submit" class="btn start">Start</button>
+          <p><- click this button to start the game</p>
+        </div>
+
+        <div class="input-group">
+          <input type="number" class="input guess-number" max="20" min="0">
+          <p><- guess the number here</p>
+        </div>
+
+        <div class="input-group">
+          <button type="submit" class="btn check">check</button>
+          <p><- click this to check your answer</p>
+        </div>
       </div>
 
       <div class="user-information">
-        <div class="number-clue">start guessing...</div>
+        <div class="number-clue">click start button...</div>
         <div>Highscore: <span class="highscore">0</span></div>
         <div>Your score: <span class="current-score">20</span></div>
       </div>

@@ -24,9 +24,21 @@ body {
   padding-top: 5rem;
 }
 
+.sub-heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
 .heading-action {
   display: flex;
   justify-content: end;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.heading-action p {
+  font-size: 0.8rem;
 }
 
 .number {
@@ -86,6 +98,16 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
+}
+
+.hud .check-group .input-group {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.hud .check-group .input-group p {
+  font-size: 0.8rem;
 }
 
 .hud .user-information {

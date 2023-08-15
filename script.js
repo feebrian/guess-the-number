@@ -25,12 +25,13 @@ buttonRestart.addEventListener("click", function () {
   document.querySelector(".guess-number").value = "";
   secretNumber.textContent = "?";
   body.style.background = "aqua";
-  numberClue.textContent = "start guessing...";
+  numberClue.textContent = "click start button...";
   currentScore.textContent = "20";
 });
 
 buttonStart.addEventListener("click", function () {
   secretNumber.setAttribute("id", randInt(0, 20));
+  numberClue.textContent = "start guessing...";
 });
 
 buttonCheck.addEventListener("click", function () {
