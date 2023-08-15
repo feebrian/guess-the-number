@@ -58,7 +58,7 @@ buttonCheck.addEventListener("click", function () {
       highscore.textContent = score;
       return;
     }
-    highscore.textContent = score;
-    return;
+    // highscore.textContent = score;
+    // return;
   }
 });
