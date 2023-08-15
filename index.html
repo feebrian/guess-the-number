@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <h1 class="heading">Guess the Number</h1>
+
+      <div class="heading-action">
+        <button class="btn restart">restart</button>
+      </div>
+    </header>
+
+    <div class="number">
+      <span class="secret-number">?</span>
+    </div>
+
+
+    <div class="hud">
+
+      <div class="check-group">
+        <button type="submit" class="btn start">Start</button>
+        <input type="number" class="input guess-number" maxlength="2">
+        <button type="submit" class="btn check">check</button>
+      </div>
+
+      <div class="user-information">
+        <div class="number-clue">start guessing...</div>
+        <div>Highscore: <span class="highscore">0</span></div>
+        <div>Your score: <span class="current-score">20</span></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
